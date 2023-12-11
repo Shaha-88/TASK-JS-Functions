@@ -7,9 +7,10 @@
  * greet("Hamza") logs "Hello Hamza"
  */
 function greet(name) {
-  // Your code here
+  return name;
 }
-
+const name = greet(Hamza);
+console.log(`hello ${name}`);
 /**
  * isOdd(n):
  * - receives a number n
@@ -19,9 +20,11 @@ function greet(name) {
  * isOdd(7) -> true
  * isOdd(10) -> false
  */
-function isOdd(n) {
-  // Your code here
+function isOdd(n1,n2) {if(n1%3==1){ return true};
+else{return false};
 }
+const n1  = isOdd(7,10);
+console.log(true);
 
 /**
  * oddsSmallerThan(n):
